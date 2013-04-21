@@ -5,19 +5,23 @@
 	GitHub: https://github.com/Nerdissimo/
 	Twitter: @Nerdissimo
 */
+@charset 'utf-8';
 .plasmon {
 	background-color:#fa7c25;
 	background-image:-webkit-linear-gradient(bottom, #fa7c25 0%, #fbce5b 100%);
 	background-image:-moz-linear-gradient(bottom, #fa7c25 0%, #fbce5b 100%);
+	background-image:-ms-linear-gradient(bottom, #fa7c25 0%, #fbce5b 100%);
 	background-image:-o-linear-gradient(bottom, #fa7c25 0%, #fbce5b 100%);
 	background-image:linear-gradient(bottom, #fa7c25 0%, #fbce5b 100%);
 	border:1px #fa7c25 solid;
-	-moz-border-radius:27px;
 	-webkit-border-radius:27px;
+	-moz-border-radius:27px;
+	-ms-border-radius:27px;
 	-o-border-radius:27px;
 	border-radius:27px;
-	-moz-box-shadow: 5px 5px 5px #888;
 	-webkit-box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-ms-box-shadow: 5px 5px 5px #888;
 	-o-box-shadow: 5px 5px 5px #888;
 	box-shadow: 5px 5px 5px #888;
 	height:75px;
@@ -31,8 +35,9 @@
 	font-family:Helvetica, Verdana, Arial, sans-serif;
 	font-size:35px;
 	line-height:75px;
-	-moz-text-shadow: -1px -1px #7a3820;
 	-webkit-text-shadow: -1px -1px #7a3820;
+	-moz-text-shadow: -1px -1px #7a3820;
+	-ms-text-shadow: -1px -1px #7a3820;
 	-o-text-shadow: -1px -1px #7a3820;
 	text-shadow: -1px -1px #7a3820;
 }
@@ -41,15 +46,19 @@
 	background-color:#df9146;
 	background-image:-webkit-linear-gradient(top left, #fed57b 0%, #df9146 100%);
 	background-image:-moz-linear-gradient(top left, #fed57b 0%, #df9146 100%);
+	background-image:-ms-linear-gradient(top left, #fed57b 0%, #df9146 100%);
 	background-image:-o-linear-gradient(top left, #fed57b 0%, #df9146 100%);
 	background-image:linear-gradient(top left, #fed57b 0%, #df9146 100%);
 	border:0;
-	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
 	-o-border-radius:50%;
 	border-radius:50%;
-	-moz-box-shadow: 5px 5px 5px #888;
 	-webkit-box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-ms-box-shadow: 5px 5px 5px #888;
+	-o-box-shadow: 5px 5px 5px #888;
 	box-shadow: 5px 5px 5px #888;
 	height:195px;
 	padding:0;
@@ -58,12 +67,15 @@
 }
 .macine:after {
 	background-color:#fff;
-	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
 	-o-border-radius:50%;
 	border-radius:50%;
-	-moz-box-shadow: -5px -5px 15px #9d4e25;
 	-webkit-box-shadow: -5px -5px 15px #9d4e25;
+	-moz-box-shadow: -5px -5px 15px #9d4e25;
+	-ms-box-shadow: -5px -5px 15px #9d4e25;
+	-o-box-shadow: -5px -5px 15px #9d4e25;
 	box-shadow: -5px -5px 15px #9d4e25;
 	content:"";
 	display:block;
@@ -81,27 +93,31 @@
 	border:90px #f6b94e solid;
 	border-top:90px #713421 solid;
 	border-left:90px #713421 solid;
-	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
 	-o-border-radius:50%;
 	border-radius:50%;
-	-moz-box-shadow:5px 1px 5px #888, inset 5px 1px 5px #888;
 	-webkit-box-shadow:5px 1px 5px #888, inset 5px 1px 5px #888;
+	-moz-box-shadow:5px 1px 5px #888, inset 5px 1px 5px #888;
+	-ms-box-shadow:5px 1px 5px #888, inset 5px 1px 5px #888;
+	-o-box-shadow:5px 1px 5px #888, inset 5px 1px 5px #888;
 	box-shadow:5px 1px 5px #888, inset 5px 1px 5px #888;
 	height:30px;
 	padding:0;
 	position:relative;
-	-ms-transform:rotate(45deg);
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
 	-o-transform:rotate(45deg);
 	transform:rotate(45deg);
 	width:30px;
 }
 .abbracci:before {
 	background-color:#f6b94e;
-	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
 	-o-border-radius:50%;
 	border-radius:50%;
 	content:"";
@@ -113,8 +129,9 @@
 }
 .abbracci:after {
 	background-color:#f6b94e;
-	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
 	-o-border-radius:50%;
 	border-radius:50%;
 	content:"";
@@ -129,15 +146,19 @@
 	background-color:#431610;
 	background-image:-webkit-radial-gradient(center, ellipse cover, #622012 0%,#431610 100%);
 	background-image:-moz-radial-gradient(center, ellipse cover, #622012 0%,#431610 100%);
+	background-image:-ms-radial-gradient(center, ellipse cover, #622012 0%,#431610 100%);
 	background-image:-o-radial-gradient(center, ellipse cover, #622012 0%,#431610 100%);
 	background: radial-gradient(ellipse at center,  #622012 0%,#431610 100%);
 	border:0;
-	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
 	-o-border-radius:50%;
 	border-radius:50%;
-	-moz-box-shadow: 5px 5px 5px #888;
 	-webkit-box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-ms-box-shadow: 5px 5px 5px #888;
+	-o-box-shadow: 5px 5px 5px #888;
 	box-shadow: 5px 5px 5px #888;
 	font-size:25px;
 	height:200px;
@@ -147,9 +168,10 @@
 }
 .pandistelle:after {
 	color:#deeee4;
-	content:"\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\2605\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\0000a0\2605\A\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\2605\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\2605\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\2605";
-	-moz-text-shadow: 2px 2px #1a0f0d;
+	content:"\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\2605\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\0000a0\2605\A\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\2605\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\0000a0\2605\0000a0\0000a0\0000a0\0000a0\2605\A\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\2605";
 	-webkit-text-shadow: 2px 2px #1a0f0d;
+	-moz-text-shadow: 2px 2px #1a0f0d;
+	-ms-text-shadow: 2px 2px #1a0f0d;
 	-o-text-shadow: 2px 2px #1a0f0d;
 	text-shadow: 2px 2px #1a0f0d;
 	position:absolute;
@@ -158,17 +180,21 @@
 
 .irigoli {
 	background-color:#d49d4b;
-	background-image:-moz-linear-gradient(transparent 50%, #cc8032 50%);
 	background-image:-webkit-linear-gradient(transparent 50%, #cc8032 50%);
+	background-image:-moz-linear-gradient(transparent 50%, #cc8032 50%);
+	background-image:-ms-linear-gradient(transparent 50%, #cc8032 50%);
 	background-image:-o-linear-gradient(transparent 50%, #cc8032 50%);
 	background-image:linear-gradient(transparent 50%, #cc8032 50%);
 	background-size:14px;
-	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
 	-o-border-radius:5px;
 	border-radius:5px;
-	-moz-box-shadow: 5px 5px 5px #888;
 	-webkit-box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-ms-box-shadow: 5px 5px 5px #888;
+	-o-box-shadow: 5px 5px 5px #888;
 	box-shadow: 5px 5px 5px #888;
 	font-family:Helvetica, Verdana, Arial, sans-serif;
 	height:140px;
@@ -190,8 +216,9 @@
 	overflow:hidden;
 	position:absolute;
 	right:0;
-	-moz-text-shadow: 2px 2px #d49d4b;
 	-webkit-text-shadow: 2px 2px #d49d4b;
+	-moz-text-shadow: 2px 2px #d49d4b;
+	-ms-text-shadow: 2px 2px #d49d4b;
 	-o-text-shadow: 2px 2px #d49d4b;
 	text-shadow: 2px 2px #d49d4b;
 	top:50%;

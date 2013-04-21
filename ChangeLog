@@ -1,2 +1,7 @@
+=================== 0.2 ===================
+~ Cambiata classe .rigoli in .irigoli
+~ Fix irigoli su iOS
+~ Aggiunto .gitignore
+~ Aggiunto font-family: Helvetica per iOS.
 =================== 0.1 ===================
 ~ Initial release.

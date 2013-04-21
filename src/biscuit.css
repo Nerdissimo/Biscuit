@@ -28,7 +28,7 @@
 .plasmon:after {
 	color:#fa7c25;
 	content:"PLASMON";
-	font-family:Verdana, Arial, sans-serif;
+	font-family:Helvetica, Verdana, Arial, sans-serif;
 	font-size:35px;
 	line-height:75px;
 	-moz-text-shadow: -1px -1px #7a3820;
@@ -156,8 +156,11 @@
 	white-space:pre;
 }
 
-.rigoli {
+.irigoli {
 	background-color:#d49d4b;
+	background-image:-moz-linear-gradient(transparent 50%, #cc8032 50%);
+	background-image:-webkit-linear-gradient(transparent 50%, #cc8032 50%);
+	background-image:-o-linear-gradient(transparent 50%, #cc8032 50%);
 	background-image:linear-gradient(transparent 50%, #cc8032 50%);
 	background-size:14px;
 	-moz-border-radius:5px;
@@ -167,23 +170,24 @@
 	-moz-box-shadow: 5px 5px 5px #888;
 	-webkit-box-shadow: 5px 5px 5px #888;
 	box-shadow: 5px 5px 5px #888;
-	font-family:Verdana, Arial, sans-serif;
+	font-family:Helvetica, Verdana, Arial, sans-serif;
 	height:140px;
 	position:relative;
 	text-align:center;
 	width:220px;
 }
-.rigoli:after {
+.irigoli:after {
 	background-color:#d99b46;
 	color:#cc8032;
 	content:"I RIGOLI";
 	display:block;
-	font-size:45px;
-	font-weight:bold;
+	font-family:Helvetica, Verdana, Arial, sans-serif;
+	font-size:41px;
 	height:45px;
 	left:0;
 	line-height:45px;
 	margin-top:-22px;
+	overflow:hidden;
 	position:absolute;
 	right:0;
 	-moz-text-shadow: 2px 2px #d49d4b;
@@ -191,4 +195,5 @@
 	-o-text-shadow: 2px 2px #d49d4b;
 	text-shadow: 2px 2px #d49d4b;
 	top:50%;
+	white-space:nowrap;
 }

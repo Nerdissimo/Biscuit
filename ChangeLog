@@ -1,11 +1,14 @@
+=================== 0.4 ===================
+~ vendor-prefix su background-size
+~ Modificata la home: aggiunto link a progetto GitHub
 =================== 0.3 ===================
 ~ title
 ~ charset
-~ Fix pandistelle
-~ Prefix-vendor
+~ Fix .pandistelle
+~ vendor-prefix
 =================== 0.2 ===================
 ~ Cambiata classe .rigoli in .irigoli
-~ Fix irigoli su iOS
+~ Fix .irigoli su iOS
 ~ Aggiunto .gitignore
 ~ Aggiunto font-family: Helvetica per iOS.
 =================== 0.1 ===================

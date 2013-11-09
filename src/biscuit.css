@@ -228,3 +228,19 @@
 	top:50%;
 	white-space:nowrap;
 }
+.soffi {
+	height:200px;
+	width:150px;
+	background-color:#d99b46;
+	border:8px #cc8032 solid;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+	border-radius:50%;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-ms-box-shadow: 5px 5px 5px #888;
+	-o-box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #888;
+}
